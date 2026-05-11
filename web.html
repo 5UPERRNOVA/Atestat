@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    background-color: #F5EFFF;
+    
+    }
+
+    header {
+  background-color: #CDC1FF;
+    
+     
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #d400ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Limbaje de programare web</h1>
+  <p>HTML, CSS și JavaScript</p>
+</header>
+<nav>
+  <a href="#html">HTML</a>
+  <a href="#css">CSS</a>
+  <a href="#js">JavaScript</a>
+</nav>
+<section id="html">
+  <h2>HTML</h2>
+  <p>HTML (HyperText Markup Language) este limbajul de bază pentru crearea paginilor web. El definește structura unei pagini, folosind elemente precum titluri, paragrafe, imagini și link-uri.</p>
+</section>
+<section id="css">
+  <h2>CSS</h2>
+  <p>CSS (Cascading Style Sheets) este folosit pentru a stiliza paginile web. Cu ajutorul CSS poți schimba culorile, fonturile, dimensiunile și layout-ul unei pagini.</p>
+</section>
+<section id="js">
+  <h2>JavaScript</h2>
+  <p>JavaScript este un limbaj de programare care face paginile web interactive. Poți crea animații, valida formulare și răspunde la acțiunile utilizatorului.</p>
+  <button onclick="afiseazaMesaj()">Apasă aici</button>
+</section>
+<footer>
+        <p class="copyright" >© Gheorghe Emanuel Flavius.</p>
+</footer>
+<script>
+  function afiseazaMesaj() {
+    alert("Ai apăsat butonul! JavaScript funcționează.");
+  }
+</script>
+</body>
+</html>
